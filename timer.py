@@ -39,6 +39,12 @@ def time(work):
                 timer_running=False
                 timer_start.config(state='enabled')
                 timer_stop.config(state='disabled')
+                timer_reset.config(state='enabled')
+         elif work == 'reset'
+                timer_running=False
+                timer_counter_num=66600
+                timer_start.config(state='enabled')
+                timer_stop.config(state='disabled')
                 timer_reset.config(state='disabled')
                 timer_get_entry.config(state='enabled')
                 timer_label.config(text = 'Timer')
